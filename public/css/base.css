@@ -1,0 +1,26 @@
+/* base.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f6fa;
+    color: #2d2d2d;
+    min-height: 100vh;
+}
+h2, h3 {
+    color: #284983;
+    margin-bottom: 18px;
+    font-weight: 700;
+}
+h2 { font-size: 2rem; }
+h3 { font-size: 1.2rem; }
+a {
+    color: #4676e6;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 6px;
+}
+a:hover { text-decoration: underline; }

@@ -1,0 +1,100 @@
+/* popup.css */
+.overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.2);
+    z-index: 98;
+}
+.popup {
+    position: fixed;
+    left: 0; top: 0; right: 0; bottom: 0;
+    background: rgba(40, 73, 131, 0.17);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.popup-content {
+    background: #fff;
+    border-radius: 16px;
+    padding: 40px 35px;
+    min-width: 300px;
+    box-shadow: 0 2px 32px 0 rgba(40,73,131,.18);
+    text-align: center;
+}
+.popup h3 {
+    margin-bottom: 6px;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #293a49;
+}
+
+.popup p {
+    font-size: 1.05em;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    align-items: center;
+}
+
+.popup select {
+    padding: 6px 12px;
+    font-size: 1em;
+    border-radius: 6px;
+    border: 1px solid #c0c5ca;
+    margin-bottom: 12px;
+}
+
+.popup .btn {
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 7px;
+    background: #e4ecf7;
+    color: #284983;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.popup .btn:hover {
+    background: #d0d8e8;
+}
+
+.popup .btn-primary {
+    background: #3d7cff;
+    color: #fff;
+}
+.popup .btn-primary:hover {
+    background: #2457ad;
+}
+
+.popup .btn-danger {
+    background: #fa4949;
+    color: #fff;
+}
+.popup .btn-danger:hover {
+    background: #b32626;
+}
+
+.alert {
+    background: #fff9e5;
+    color: #b28515;
+    border: 1px solid #ffe39f;
+    padding: 11px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,28 @@
+/* alerts.css */
+.error, .mensaje-error {
+    color: #fff;
+    background: #e64a45;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.success, .mensaje-exito {
+    color: #fff;
+    background: #32b08d;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.alert {
+    background: #fff9e5;
+    color: #b28515;
+    border: 1px solid #ffe39f;
+    padding: 11px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+/* table.css */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 22px 0;
+    background: #f9fbff;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 0.98rem;
+}
+th, td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+}
+th {
+    background: #d8e4fc;
+    color: #284983;
+    font-weight: 600;
+}
+tr:last-child td {
+    border-bottom: none;
+}
+tr:hover {
+    background: #eaf2fe;
+}

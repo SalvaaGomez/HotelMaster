@@ -1,0 +1,78 @@
+/* forms.css */
+.form-auth{
+    max-width: 400px;
+
+}
+form {
+    margin: 18px 0 6px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+label {
+    font-size: 1rem;
+    color: #284983;
+    margin-bottom: 2px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1.5px solid #c0c8e0;
+    border-radius: 8px;
+    background: #f7faff;
+    transition: border .2s;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border: 1.5px solid #4676e6;
+    outline: none;
+}
+input[type="submit"], button, .btn {
+    background: #4676e6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.18s;
+    margin-right: 10px;
+    margin-top: 6px;
+}
+input[type="submit"]:hover, button:hover, .btn:hover {
+    background: #284983;
+}
+
+textarea {
+    width: 100%;
+    min-height: 90px;
+    padding: 8px 12px;
+    border: 1.2px solid #c2c9d6;
+    border-radius: 7px;
+    background: #f9fafc;
+    resize: vertical;
+    font-size: 1em;
+    color: #29384d;
+    font-family: inherit;
+    box-sizing: border-box;
+    transition: border-color 0.18s;
+}
+textarea:focus {
+    border-color: #3d7cff;
+    outline: none;
+    background: #f3f7fd;
+}
+label[for="descripcion"] {
+    margin-top: 12px;
+    display: block;
+    font-weight: 500;
+    color: #304365;
+}
